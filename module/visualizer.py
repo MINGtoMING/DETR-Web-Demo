@@ -54,7 +54,7 @@ def draw_bbox(img, res_list, threshold, target_cls):
     """
     Draw bbox on image
     """
-    font_path = 'simfang.ttf'
+    font_path = './module/simfang.ttf'
     font_size = 18
     font = ImageFont.truetype(font_path, font_size, encoding="utf-8")
 
