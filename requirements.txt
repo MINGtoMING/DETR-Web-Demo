@@ -1,0 +1,7 @@
+onnx
+onnxruntime
+opencv-python
+gradio
+scipy
+numpy
+Pillow
