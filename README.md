@@ -1,5 +1,16 @@
 # <center>DETR基于Sophon BM1684X TPU的部署</center>
+
+![img.png](assets/img.png)
+
 本项目在搭载**Sophon BM168X TPU**的开发板的linux环境中实现了**DETR**目标检测模型的部署，并可用**Gradio Web Demo**的形式进行使用。
+
+
+
+|      所需文件      |                               百度网盘                                | 
+|:--------------:|:-----------------------------------------------------------------:|
+|      模型权重      | [链接](https://pan.baidu.com/s/1IKW3qHpH5rc1sF1zVnaVfg)<br/>密码：zzy7 |      
+| sophon-sail依赖包 | [链接](https://pan.baidu.com/s/1gVABoftCtRRzm9wX4nbXcA)<br/>密码：jq05 | 
+
 
 ## 快速使用
 请在搭载Sophon BM168X TPU的soc的linux环境中进行如下步骤：
@@ -11,7 +22,7 @@ pip3 install path/to/sophon_arm-3.6.0-py3-none-any.whl
 
 克隆本项目到soc的linux环境的相应目录下。
 ```shell
-git clone 
+git clone https://github.com/MINGtoMING/DETR-Web-Demo.git
 ```
 
 安装相关依赖：
